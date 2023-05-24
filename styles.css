@@ -1,16 +1,17 @@
 body {
     margin: 0;
+    background-color: #0E0E58;
 }
 .text {
     color: #FFFFFF;
     font-family: 'Roboto Slab', Serif;
 }
-
+/*First Section*/
 .section1 {
-    background-color: #0E0E58;
     padding: 40px 10%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 .section1-left {
     max-width: 800px;
@@ -23,24 +24,24 @@ body {
     font-size: 64px;
     padding-left: 32px;
     line-height: 1.1;
-    margin-bottom: -6px;
+    margin-bottom: 1rem;
 }
 .header-subtext1 {
     font-size: 24px;
     font-weight: 375;
     padding-left: 35px;
 }
-
 div.section1-left-top > img {
     max-width: 240px;
-    margin-bottom: -80px;
+    margin-bottom: -22px;
 }
-div.section1-left-bottom > img {
+div.section1-left-bottom > a > img {
     max-width: 240px;
     padding-left: 40px;
-    margin-top: -20px;
+
 }
 div.section1-right > img {
     max-width: 350px;
     padding-top: 50px;
 }
+/*Second Section*/
