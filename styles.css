@@ -8,7 +8,7 @@ body {
 }
 /*First Section*/
 .section1 {
-    padding: 40px 10%;
+    padding: 40px 13%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -75,7 +75,6 @@ div.section1-right > img {
 }
 .column {
     width: 220px;
-    height: 300px;
     padding: 12px 12px;
     background-color: #FFFFF0;
     border-radius: 12px;
@@ -86,13 +85,13 @@ div.section1-right > img {
 }
 .column > img {
     max-width: 122px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 8px;
+    margin-bottom: 30px;
     margin-right: -20px;
 }
 img.fix {
     max-width: 110px;
-    margin-top: 19px;
+    margin-top: 17px;
     margin-right: 0;
 }
 .column > .image-header {
@@ -100,7 +99,7 @@ img.fix {
     font-weight: 800;
     color: #0E0E58;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 .column > .image-subtext {
     font-family: 'Roboto Slab', serif;
