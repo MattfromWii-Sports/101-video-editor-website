@@ -11,7 +11,7 @@ body {
     padding: 40px 10%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .section1-left {
     max-width: 800px;
@@ -65,18 +65,49 @@ div.section1-right > img {
     max-width: 800px;
     word-wrap: break-word;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom:64px;
 }
 .column-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 .column {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
+    padding: 12px 12px;
+    background-color: #FFFFF0;
+    border-radius: 12px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     border: solid 2px white;
+}
+.column > img {
+    max-width: 122px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: -20px;
+}
+img.fix {
+    max-width: 110px;
+    margin-top: 19px;
+    margin-right: 0;
+}
+.column > .image-header {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0E0E58;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+.column > .image-subtext {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #0E0E58;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.5rem;
 }
