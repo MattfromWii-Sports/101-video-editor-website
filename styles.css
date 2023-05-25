@@ -110,3 +110,56 @@ img.fix {
     text-align: center;
     line-height: 1.5rem;
 }
+
+@media (max-width: 750px) {
+    body {
+    margin: 0;
+    background-color: #0E0E58;
+    }
+    .text {
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', Serif;
+    }
+    /*First Section*/
+    .section1 {
+        padding: 8%;
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+        margin-bottom: 50px;
+    }
+    .section1-left {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header1 {
+        font-weight: 600;
+        font-size: 42px;
+        padding-left: 32px;
+        line-height: 1.1;
+        margin-bottom: 30px;
+    }
+    .header-subtext1 {
+        font-size: 21px;
+        font-weight: 350;
+        padding-left: 35px;
+        margin-bottom: 40px;
+    }
+    div.section1-left-top > img {
+        max-width: 180px;
+        margin-bottom: -20px;
+        margin-left: 10px;
+    }
+    div.section1-left-bottom > a > img {
+        max-width: 200px;
+        padding-left: 40px;
+        margin-top: -40px;
+    }
+    div.section1-right > img {
+        max-width: 250px;
+        padding-top: 80px;
+    }
+    /*Second Section*/
+}
