@@ -122,11 +122,10 @@ img.fix {
     }
     /*First Section*/
     .section1 {
-        padding: 5% 8%;
+        padding: 4px;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2px;
         margin-bottom: 30px;
     }
     .section1-left {
@@ -137,21 +136,21 @@ img.fix {
     }
     .header1 {
         font-weight: 600;
-        font-size: 42px;
+        font-size: 34px;
         padding-left: 32px;
         line-height: 1.1;
         margin-bottom: 30px;
     }
     .header-subtext1 {
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 350;
         padding-left: 35px;
         margin-bottom: 40px;
     }
     div.section1-left-top > img {
-        max-width: 180px;
+        max-width: 170px;
         margin-bottom: -20px;
-        margin-left: 10px;
+        margin-right: -10px;
     }
     div.section1-left-bottom > a > img {
         max-width: 200px;
@@ -159,7 +158,7 @@ img.fix {
         margin-top: -40px;
     }
     div.section1-right > img {
-        max-width: 250px;
+        max-width: 220px;
         padding-top: 30px;
     }
     /*Second Section*/
@@ -167,12 +166,11 @@ img.fix {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 8%;
         margin-bottom: 50px;
     }
     .header2 {
-        font-weight: 600;
-        font-size: 42px;
+        font-weight: 550;
+        font-size: 34px;
         max-width: 80%;
         word-wrap: break-word;
         text-align: center;
@@ -215,7 +213,7 @@ img.fix {
     }
     .column > .image-header {
         font-size: 24px;
-        font-weight: 600;
+        font-weight: 550;
         color: #0E0E58;
         font-family: 'Courier New', Courier, monospace;
         margin-bottom: 14px;
